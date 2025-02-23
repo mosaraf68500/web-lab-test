@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>annoucement</title>
+    <style>
+
+        .head-line{
+            background-color: #324851;
+            height: 70px;
+            width: 100%;
+            text-align: center;
+            padding-top: .5px;
+            
+            color: white;
+        }
+        .navbar{
+            margin-top:5px ;
+
+        }
+
+
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+            background-color: #333;
+            justify-items: space-between;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover:not(.active) {
+            background-color: #111;
+          }
+
+          .active {
+            background-color: #68706d;
+          }
+
+          h1{
+            text-align: center;
+          }
+          form{
+            text-align: center;
+            background-color: #B7B8B6;
+            height: 100%;
+            width: 50%;
+            margin: 2px solid gray;
+            padding: 10px;
+          }
+          .form{
+            padding-left: 380px;
+          }
+          .button{
+            background: #BCBABE;
+            height: 40px;
+            width: 100px;
+            font-size: 20px;
+            border-radius: 8px;
+          }
+          .button:hover{
+            background-color: #063852;
+            color: white;
+          }
+
+          .navbar.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+          }
+
+    </style>
+</head>
+<body>
+    <div class="head-line">
+        <h1>EDGE:BU-CSE Digital Skills Training</h1>
+    </div>
+
+<div class="navbar">
+    <ul class="nav">
+        <li><a class="active" href="announcement.html">Announcement</a></li>
+        <li><a href="offered courses.html">Offered Courses</a></li>
+        <li><a href="apply online.html">Apply Online</a></li>
+        
+      </ul>
+</div>
+
+<h1>Application form</h1>
+<div class="form">
+<form action="">
+    <div>
+    <label for="name">Application Name:</label>
+    <input type="text" id="name" name="name" size="40px">
+    </div><br>
+
+
+    <div>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" size="40px">
+        </div><br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="eamil" size="40px">
+            </div><br>
+           
+
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="Male">Male
+                <input type="radio" name="Male">Female
+                </div><br>
+
+
+
+                <div>
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" id="date" name="date" size="40px">
+                    </div><br>
+
+
+                    <div>
+                        <label for="institute">Your Institute:</label>
+                        <input type="text" id="inst" name="inst" size="40px">
+                        </div><br>
+
+                        <div>
+                            <label for="Choose Program">Choose Program:</label>
+                            <select name="cars" id="cars">
+                                
+                                  <option value="computer fundamental and office application">computer fundamental and office application</option>
+                                  <option value="Basic networking" selected>Basic networking</option>
+                            
+            
+                                  <option value="basic"> Basic web development</option>
+                                  <option value="phyton">Baic programming with phyton</option>
+
+                                  <option value="database"> Database Management</option>
+                                  <option value="mobile">Mobile application development</option>
+                            </select><br><br>
+                            <label>why you want to attend this couser:</label>
+                                  <textarea name="" id="" rows="7" cols="40"></textarea>
+                                  <br><br>
+                                  <input  class="button" type="submit" value="Submit" size="40px">
+                                
+                              </select>
+                            </div>
+                           
+                       
+                   
+
+</form>
+
+
+</div>
+
+    
+</body>
+</html>
